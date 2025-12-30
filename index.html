@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Belia Farensa Anindya</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="lang-switcher">
+        <button class="lang-btn" onclick="setLanguage('id')">🇮🇩 ID</button>
+        <button class="lang-btn" onclick="setLanguage('en')">🇺🇸 EN</button>
+    </div>
+
+    <div class="bg-gradient"></div>
+    <div class="bg-overlay"></div>
+
+    <header>
+        <div class="hero-content">
+            <div class="profile-img-wrapper">
+                <div class="profile-ring"></div>
+                <img src="assets/belia.jpeg" alt="Profile Photo" class="profile-img">
+            </div>
+            <h1>Belia Farensa Anindya</h1>
+            <p class="tagline" id="hero-tagline">✨ Creative Designer & Developer ✨</p>
+            <a href="#contact" class="cta-button" id="hero-cta">Mari Bekerja Sama</a>
+        </div>
+        <div class="scroll-indicator"><span>⬇️</span></div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title" id="about-title">Tentang Saya</h2>
+            <div class="about-content">
+                <p id="about-p1">Halo! ✨ Aku adalah seorang <strong>Creative Designer</strong> yang passionate dalam menciptakan karya digital yang menarik dan fungsional.</p>
+                <p style="margin-top: 20px;" id="about-p2">Aku percaya bahwa kombinasi antara kreativitas dan teknologi dapat menciptakan sesuatu yang luar biasa. Mari kita ciptakan sesuatu yang amazing bersama! 💫</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title" id="projects-title">Proyek Saya</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">🎨</div>
+                    <h3 class="project-title" id="p1-title">Desain Kreatif</h3>
+                    <p class="project-desc" id="p1-desc">Deskripsi tentang project desain kreatif yang spesial dan unik.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">💻</div>
+                    <h3 class="project-title" id="p2-title">Pengembangan Web</h3>
+                    <p class="project-desc" id="p2-desc">Membangun website responsif dengan teknologi modern.</p>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" id="contact-title">Ayo Terhubung!</h2>
+            <div class="contact-links">
+                <a href="mailto:farensanindya04@gmail.com" class="contact-btn">
+                    <span class="contact-icon">📧</span>
+                    <span id="contact-email">Email Saya</span>
+                </a>
+
+                <a href="https://linkedin.com/in/yourprofile" class="contact-btn">
+                    <span class="contact-icon">💼</span>
+                    <span id="linkedin">LinkedIn</span>
+                </a>
+
+                <a href="https://wa.me/62881036303773" class="contact-btn">
+                    <span class="contact-icon">💬</span>
+                    <span id="contact-whatsapp">WhatsApp</span>
+                </a>
+                </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Belia Farensa.</p>
+    </footer>
+
+    <script src="language.js"></script>
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
